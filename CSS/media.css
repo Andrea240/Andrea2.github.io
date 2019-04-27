@@ -1,0 +1,395 @@
+@media screen and (max-width:960px) {
+	html {
+		overflow-x: hidden;
+	}
+	body {
+		overflow-x: hidden;
+		width: auto;
+	}
+	.navigation {
+		width: auto;
+	}
+	.menu {
+    padding: 30px 0px 0px 30px;
+    width: 176px;
+    height: 25px;
+    }
+    .header_item {
+    height: 621px;
+    width: auto;
+    background: none;
+    }
+    .text {
+    font-family: 'chunkfive-ex';
+    padding-left: 0px;
+    padding-top: 28px;
+    font-size: 32px;
+    width: 560px;
+    text-align: center;
+    margin: auto;
+    }
+    .text2 {
+    font-family: 'Lato';
+    font-size: 18px;
+    width: 690px;
+    padding-left: 0px;
+    text-align: center;
+    padding-top: 21px;
+    margin: auto;
+    line-height: 1.2em;
+    }
+    .rectangle1 {
+    margin-top: 16px;
+    margin: auto;
+    margin-bottom: -8px;
+    padding-left: 0px;
+    height: 63px;
+    width: 519px;
+    background: url(../IMG/pryamoygolnic2.png) no-repeat right;
+    }
+    .rectangle2 {
+    padding-left: 0px;
+    height: 60px;
+    margin: auto;
+    width: 519px;
+    background: url(../IMG/pryamoygolnic.png)no-repeat right;
+    }
+    .money {
+    font-family: 'Lato Black';
+    padding-left: 0px;
+    text-align: center;
+    margin-top: 34px;
+    font-size: 18px;
+    }
+    .requirements {
+    padding-left: 0px;
+    padding-top: 16px;
+    width: 32%;
+    margin: auto;
+    }
+    .acquaintance {
+    font-family: 'Lato Black';
+    font-size: 42px;
+    margin-left: 0px;
+    text-align: center;
+    letter-spacing: -0.05em;
+    margin-top: 53px;
+    }
+    .people2 {
+    padding-left: 0px;
+    margin-left: 40%;
+    padding-top: 20px;
+    }
+    .biography {
+    width: 75%;
+    height: 245px;
+    border: 5px solid rgb(255 184 32);
+    display: block;
+    margin-left: 0px;
+    margin-top: -99px;
+    border-radius: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    }
+    .text4 {
+    font-family: 'Lato Light';
+    font-size: 42px;
+    margin-left: 0px;
+    letter-spacing: -0.05em;
+    padding-top: 38px;
+    text-align: center;
+    }
+    .text258 {
+    font-family: 'Lato Black';
+    font-size: 42px;
+    margin-left: 0px;
+    letter-spacing: -0.05em;
+    }
+    .reputation {
+    text-align: center;
+    padding-top: 26px;
+    display: block;
+    width: 64%;
+    margin: auto;
+    }
+    .reputation_item {
+    height: 64px;
+    margin: 0px auto;
+    display: block;
+    width: 675px;
+    margin-left: 0px;
+    margin-bottom: 3px;
+    }
+    .cause {
+    margin-top: 64px;
+    height: 826px;
+    background: rgb(230 230 230);
+     }    
+     .h2 {
+    font-family: 'Lato Black';
+    font-size: 42px;
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 43px;
+    letter-spacing: -0.049em;
+    }
+    .text9 {
+    font-family: 'Minion Pro Regular';
+    margin-left: 0px;
+    text-align: center;
+    padding-top: 24px;
+    letter-spacing: 0.05969em;
+    }
+    .div_items {
+    width: 96%;
+    margin-left: 508px;
+    height: 293px;
+    margin-top: 38px;
+    margin: auto;
+    }
+    .block5 {	
+    display: block;
+    margin: auto;
+    width: 48%;
+    height: 292px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: url(../IMG/img1.png) no-repeat center;
+    }
+    .block8 {
+    display: inline-block;
+    width: 100%;
+    height: 292px;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+    .block5:nth-child(2) {
+    background: url(../IMG/img2.png) no-repeat center;
+    margin-left: 26px;
+    margin: auto;
+    float: none;
+    }
+    .work_book_item {
+    width: 95%;
+    height: 600px;
+    margin: auto;
+    background: #fff;
+    margin-top: -1px;
+    display: block;
+    }
+    .block11 {
+    height: 48px;
+    margin: 0px auto;
+    width: 100%;
+    margin-top: 32px;
+    background: rgb(255 184 32);
+    }
+    .book_item {
+    height: 64px;
+    display: block;
+    width: 85%;
+    margin: auto;
+    margin-top: 49px;
+    }
+    .text20 {
+    font-family: 'Lato Black';
+    font-size: 24px;
+    text-align: left;
+    padding-left: 80px;
+    height: 58px;
+    line-height: 65px;
+    }
+    .button {
+    border-radius: 7px;
+    margin-left: 27%;
+    margin-right: 27%;
+    width: 343px;
+    margin-top: 55px;
+    height: 83px;
+    background: rgb(255 184 32);
+    font-family: 'Lato Black';
+    font-size: 24px;
+    padding-top: 10px;
+    }
+    br {
+    	display: none;
+    }
+}
+@media screen and (max-width: 728px) {
+	body {
+		overflow-x: hidden;
+	}
+	.text {
+		width: auto;
+	}
+	.text2 {
+		width: auto;
+	}
+	.rectangle1 {
+    width: auto;
+    background: #fff;
+    border: 3px solid rgb(27 54 255);
+    margin-left: 2%;
+    margin-right: 2%;
+	}
+	.rectangle2 {
+    padding-left: 0px;
+    height: 60px;
+    margin: auto;
+    width: auto;
+    background: rgb(27 54 255);
+    margin-left: 2%;
+    margin-right: 2%;
+    }
+    .rectangle_text1 {
+    font-family: 'Lato Black';
+    display: block;
+    text-align: center;
+    padding-top: 0px;
+    font-size: 24px;
+    }
+    .rectangle_text2 {
+    font-family: 'Lato Black';
+    display: block;
+    font-size: 24px;
+    padding-left: 0px;
+    padding-top: 0px;
+    text-align: center;
+    }
+    .acquaintance {
+    	margin-top: 194px;
+    }
+    .biography {
+    	width: 97%;
+    	margin-left: 0px;
+    	margin-right: 0px;
+    	margin-top: 10px;
+    	height: 150px;
+    }
+    .text3 {
+    	padding-top: 30px;
+    }
+    .people2 {
+    	margin-left: 40%;
+    	display: none;
+    }
+    .requirements {
+    padding-left: 0px;
+    padding-top: 16px;
+    width: 86%;
+    margin: auto;
+    }
+    .p_requirements {
+    font-size: 13.5px;
+    font-family: 'Lato';
+    height: 24px;
+    line-height: 37px;
+    padding-left: 27px;
+    }
+    .reputation {
+    text-align: center;
+    padding-top: 0px;
+    display: block;
+    width: 64%;
+    margin: auto;
+    }
+    .reputation_item {
+    height: 64px;
+    margin: 0px auto;
+    display: block;
+    width: auto;
+    margin-left: 0px;
+    margin-top: 101px;
+    margin-bottom: 3px;
+    }
+    .elipse {
+    float: none;
+    background: rgb(255 184 32);
+    width: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 64px;
+    border: 1px solid rgb(255 184 32);
+    }
+    .text10 {
+    font-family: 'Minion Pro Regular';
+    text-align: center;
+    height: 87px;
+    line-height: 30px;
+    letter-spacing: 0.06em;
+    padding-left: 0px;
+    }
+    .elipse1 {
+    	margin-top: 20px;
+    }
+    .div_items {
+    	max-width: 440px;
+    }
+    .block5 {
+    max-width: 440px;
+    display: block;
+    margin: auto;
+    width: 95%;
+    height: 293px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: url(../IMG/img1.png) no-repeat center;
+    }
+    .elipse_text2 {
+    font-family: 'Minion Pro Regular';
+    color: #fff;
+    text-align: center;
+    padding-top: 0px;
+    letter-spacing: 0.06em;
+    line-height: 1.34em;
+    }
+    .work_book_item {
+    	height: 715px;
+    }
+    .block11 {
+    height: max-content;
+    margin: 0px auto;
+    width: 100%;
+    margin-top: 32px;
+    background: rgb(255 184 32);
+    }
+    .book_item {
+    height: 64px;
+    display: block;
+    width: 95%;
+    margin: auto;
+    margin-top: 49px;
+    }
+    .elipse20 {
+    float: none;
+    margin: auto;
+    width: 58px;
+    border-radius: 50%;
+    height: 58px;
+    border: 5px solid rgb(255 184 32);
+    }
+    .text20 {
+    font-family: 'Lato Black';
+    font-size: 24px;
+    padding-left: 0px;
+    height: 58px;
+    line-height: 40px;
+    text-align: center;
+    }
+    .block_button {
+    	margin-top: 50px;
+    	text-align: center;
+    }
+    .button {
+    border-radius: 7px;
+    margin-left: 20%;
+    margin-right: 27%;
+    width: 66%;
+    margin-top: 55px;
+    height: 83px;
+    background: rgb(255 184 32);
+    font-family: 'Lato Black';
+    font-size: 24px;
+    padding-top: 10px;
+    }
+
+}

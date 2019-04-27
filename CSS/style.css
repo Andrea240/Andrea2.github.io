@@ -1,0 +1,496 @@
+@font-face {
+font-family: 'Minion Pro Regular';
+src: url('../fonts/MinionPro-Regular.eot');
+src: url('../fonts/MinionPro-Regular.eot?#iefix') format('embedded-opentype'),
+url('../fonts/MinionPro-Regular.woff') format('woff'),
+url('../fonts/MinionPro-Regular.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+@font-face {
+	font-family: 'Lato Light';
+	src: url('../fonts/Lato-Light.eot');
+	src: url('../fonts/Lato-Light.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Lato-Light.woff') format('woff'),
+	url('../fonts/Lato-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'Lato Black';
+	src: url('../fonts/Lato-Black.eot');
+	src: url('../fonts/Lato-Black.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Lato-Black.woff') format('woff'),
+	url('../fonts/Lato-Black.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+    font-family: 'chunkfive-ex';
+    src: url("../fonts/chunkfive-ex");
+    src: url("../fonts/chunkfive-ex.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/chunkfive-ex.woff") format("woff"), 
+    url("../fonts/chunkfive-ex.ttf") format("truetype"), 
+    url("../fonts/chunkfive-ex.svg#UniSans") format("svg");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+	font-family: 'Lato';
+	src: url(../FONTS/ofont.ru_Lato.ttf);
+}
+html, head, body, section, div, p, ul {
+	margin: 0px;
+	padding: 0px;
+    font-family: Arial, sans-serif;
+}
+body {
+	margin: 0px;
+	margin: 0px auto;
+	width: 1920px;
+    padding: 0px;
+    font-family: sans-serif, Arial, Tahoma;
+}
+header {
+	background: rgb( 242 236 232);
+}
+progress{
+    position:fixed;
+    left:0;
+    top:0;
+    width:100%;
+    height:5px;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    border:none;
+    background:transparent;
+    color: rgb(27 54 255);
+}
+progress::-webkit-progress-bar{
+    background:transparent;
+    border-radius:5px;
+}
+progress::-webkit-progress-value{
+    background:rgb(27 54 255);
+    border-radius:5px;
+}
+progress::-moz-progress-bar{
+    background:rgb(27 54 255);
+    border-radius:5px;
+}
+.progress-container{
+    width:100%;
+    background:transparent;
+    position:fixed;
+    top:0;
+    left:0;
+    height:5px;
+    display:block;
+}
+.progress-bar{
+    background:rgb(27 54 255);
+    width:0%;
+    display:block;
+    height:inherit;
+}
+/*Навигация*/
+.navigation {
+	width: 100%;
+	height: 74px;
+	background-color: rgb(210 209 208);
+}
+.menu_img {
+	display: inline-block;
+	width: 21px;
+	height: 15px;
+	background: url(../IMG/home.png) no-repeat;
+}
+.menu {
+	padding: 30px 0px 0px 460px;
+	width: 176px;
+	height: 25px;
+}
+.menu_p {
+	line-height: 1.1em;
+	font-family: 'Lato';
+	font-size: 17.78px;
+	float: right;
+	letter-spacing: 0.04em;
+}
+/*Основное содержимое header*/
+.header_item {
+	height: 621px;
+	width: 1657px;
+	background: url(../IMG/people.png) no-repeat right bottom;
+}
+.text {
+	font-family: 'chunkfive-ex';
+	padding-left: 495px;
+	padding-top: 28px;
+	font-size: 32px;
+	width: 560px;
+	text-align: center;
+}
+.text0 {
+	color: rgb(255 184 32);
+}
+.text2 {
+	font-family: 'Lato';
+	font-size: 18px;
+	width: 690px;
+    padding-left: 427px;
+    text-align: center;
+    padding-top: 21px;
+    line-height: 1.2em;
+}
+.rectangle1 {
+	margin-top: 16px;
+    margin-bottom: -8px;
+	padding-left: 511px;
+    height: 63px;
+    width: 519px;
+    background: url(../IMG/pryamoygolnic2.png) no-repeat right;
+}
+.rectangle_text1 {
+	font-family: 'Lato Black';
+    display: block;
+    text-align: center;
+    padding-top: 23px;
+    font-size: 24px; 
+}
+.rectangle2 {
+	padding-left: 497px;
+    height: 60px;
+    width: 519px;
+    background: url(../IMG/pryamoygolnic.png)no-repeat right;
+}
+.rectangle_text2 {
+    font-family: 'Lato Black';
+    display: block;
+    padding-left: 100px;
+    padding-top: 17px;
+    font-size: 24px;
+}
+.money {
+	font-family: 'Lato Black';
+	padding-left: 631px;
+    padding-top: 34px;
+    font-size: 18px;
+}
+.requirements {
+	padding-left: 600px;
+    padding-top: 16px;
+}
+.requirements_item {
+    display: block;
+}
+.item_requirements {
+	background: url(../IMG/check.png) no-repeat left;
+	height: 31px;
+    width: 400px;
+}
+.p_requirements {
+	font-size: 18px;
+	font-family: 'Lato';
+	height: 24px;
+	line-height: 29px;
+	padding-left: 36px;
+}
+/*Раздел про знакомство*/
+.acquaintance {
+    font-family: 'Lato Black';
+    font-size: 42px;
+    margin-left: 731px;
+    letter-spacing: -0.05em;
+    margin-top: 53px;
+}   
+.text100 {
+    font-family: 'Lato Light';
+    font-size: 42px; 
+}
+.people2 {
+	padding-left: 875px;
+    padding-top: 20px;
+}
+.biography {
+	width: 707px; 
+	height: 245px;
+	border: 5px solid rgb(255 184 32);
+	display: block;
+	margin-left: 600px;
+	margin-top: -99px;
+	border-radius: 40px;
+}
+.text3 {
+	font-family: 'Minion Pro Regular';
+	text-align: center;
+	font-size: 18px;
+    padding-top: 112px;
+    line-height: 1.22em;
+}
+.text4 {
+	font-family: 'Lato Light';
+    font-size: 42px; 
+	letter-spacing: -0.05em;
+    padding-top: 38px;
+}
+.text258 {
+	font-family: 'Lato Black';
+    font-size: 42px;
+    margin-left: 683px;
+	letter-spacing: -0.05em;
+}
+.reputation {
+    text-align: center;
+    padding-top: 26px;
+}
+.reputation_item {
+	height: 64px;
+	margin: 0px auto;
+    display: block;
+    width: 675px;
+    margin-left: 693px;
+    margin-bottom: 3px;
+}
+.elipse {
+	float: left;
+    background: rgb(255 184 32);
+    width: 65px;
+    border-radius: 50%;
+    display: inline-block;
+    height: 64px;
+    border: 1px solid rgb(255 184 32);
+}
+.number {
+	font-family: 'Lato';
+	text-align: center;
+	height: 65px;
+	line-height: 65px;
+	font-size: 30px;
+}
+.number1 {
+	text-align: center;
+	height: 35px;
+	line-height: 53px;
+	font-size: 30px;
+}
+.text_number {
+    font-family: 'Lato';
+}
+.font-size {
+	font-size: 20px;
+}
+.text10 {
+	font-family: 'Minion Pro Regular';
+	text-align: left;
+    padding-left: 93px;
+	height: 64px;
+    line-height: 76px;
+    letter-spacing: 0.06em;
+
+}
+/*Пункт о пречеслении дел*/
+.cause {
+	margin-top: 64px;
+    height: 525px;
+    background: rgb(230 230 230);
+}
+.h2 {
+	font-family: 'Lato Black';
+	font-size: 42px;
+	margin-left: 800px;
+    padding-top: 43px;
+    letter-spacing: -0.049em;
+}
+.text9 {
+	font-family: 'Minion Pro Regular';
+	margin-left: 519px;
+    padding-top: 24px;
+    letter-spacing: 0.05969em;
+}
+.div_items {
+    width: 906px;
+    margin-left: 508px;
+    height: 293px;
+    margin-top: 38px;
+}
+.block5 {
+	display: inline-block;
+    width: 437px;
+    height: 292px;
+    background: url(../IMG/img1.png) no-repeat center;
+}
+.block5:nth-child(2) {
+    background: url(../IMG/img2.png) no-repeat center;
+    margin-left: 26px;
+    float: right;
+}
+.block8 {
+    display: inline-block;
+    width: 437px;
+    height: 292px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.elipse1 {
+	font-family: 'Lato';
+	margin: 0px auto;
+    text-align: center;
+    display: block;
+    width: 55px;
+    height: 56px;
+    color: #fff;
+    border: 5px solid rgb(255 184 32);
+    border-radius: 50%;
+    line-height: 60px;
+    margin-top: 25px;
+    font-size: 30px;
+}
+.elipse_text {
+	font-family: 'Lato Black';
+	text-align: center;
+    padding-top: 20px;
+    letter-spacing: -0.0345em;
+    font-size: 24px;
+    color: #fff;
+}
+.elipse_text2 {
+	font-family: 'Minion Pro Regular';
+	color: #fff;
+    text-align: center;
+    padding-top: 13px;
+    letter-spacing: 0.06em;
+    line-height: 1.34em;
+}
+/*Нижний серый блок с блоком по середине «Ты работаешь по трудовой книжке?»*/
+.work_book {
+	height: 771px;
+	background: rgb(89 94 103);
+    padding-top: 46px;
+}
+.work_book_item {
+	width: 1094px;
+    height: 600px;
+    margin-left: 413px;    background: #fff;
+    margin-top: -1px;
+    display: block;
+}
+.loan {
+	font-family: 'Lato Black';
+	text-align: center;
+    padding-top: 55px;
+    font-size: 30px;
+    line-height: 1.2em;
+}
+.block11 {
+	height: 48px;
+    margin: 0px auto;
+    width: 902px;
+    margin-top: 32px;
+    background: rgb(255 184 32);
+}
+.text11 {
+	font-family: 'Minion Pro Regular';
+	text-align: center;
+	letter-spacing: 0.06em;
+    line-height: 47px;
+}
+.book_item {
+	height: 64px;
+    display: block;
+    width: 675px;
+    margin-left: 93px;
+    margin-top: 49px;
+}
+.elipse20 {
+	float: left;
+    width: 58px;
+    border-radius: 50%;
+    height: 58px;
+    border: 5px solid rgb(255 184 32);
+}
+.number10 {
+	font-family: 'Lato';
+	text-align: center;
+	height: 58px;
+	line-height: 58px;
+	font-size: 30px;
+}
+.text20 {
+	font-family: 'Lato Black';
+	font-size: 24px;
+	text-align: left;
+    padding-left: 95px;
+	height: 58px;
+    line-height: 65px;
+}
+.radian {
+	margin-top: 48px;
+    margin-left: 34px;
+	border: 2px solid rgb(255 184 32);
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: rgb(255 184 32);
+    position: relative;
+}
+.radian::before {
+	content: "";
+    border: 2px solid rgb(255 184 32);
+    display: inline-block;
+    width: 29px;
+    border-radius: 50%;
+    height: 29px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+.radian::after {
+    content: "ДА";
+    margin-left: 44px;
+    font-family: 'Minion Pro Regular';
+    font-size: 18px;
+    line-height: 1px;
+    letter-spacing: -0.03em;
+}
+.radian2 {
+	margin-top: 48px;
+    margin-left: 107px;
+	border: 2px solid #fff;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background: #fff;
+    position: relative;
+}
+.radian2::after {
+    content: "НЕТ";
+    margin-left: 43px;
+    font-family: 'Minion Pro Regular';
+    font-size: 18px;
+    line-height: 1px;
+    letter-spacing: 0.09em;
+}
+.radian2::before {
+	content: "";
+    border: 2px solid rgb(255 184 32);
+    display: inline-block;
+    width: 29px;
+    border-radius: 50%;
+    height: 29px;
+    position: absolute;
+    left: -10px;
+    top: -10px;
+}
+
+.button {
+	border-radius: 7px;
+	width: 343px;
+    margin-top: 55px;
+    margin-left: 374px;
+    height: 83px;
+    background: rgb(255 184 32);
+    font-family: 'Lato Black';
+    font-size: 24px;
+    padding-top: 10px;
+}
